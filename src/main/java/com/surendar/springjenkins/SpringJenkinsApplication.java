@@ -15,6 +15,7 @@ public class SpringJenkinsApplication {
 		logger.info("Starting Spring");
 		SpringApplication.run(SpringJenkinsApplication.class, args);
 		System.out.println("Spring started from the main class for testing");
+		System.out.println("Third commit");
 	}
 
 }
